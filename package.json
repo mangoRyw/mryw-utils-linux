@@ -1,0 +1,19 @@
+{
+  "name": "mryw-utils-linux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mangoRyw/mryw-utils-linux.git"
+  },
+  "author": "mRyw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mangoRyw/mryw-utils-linux/issues"
+  },
+  "homepage": "https://github.com/mangoRyw/mryw-utils-linux#readme",
+  "description": ""
+}
