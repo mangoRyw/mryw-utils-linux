@@ -22,5 +22,6 @@
     "url": "https://github.com/mangoRyw/mryw-utils-linux/issues"
   },
   "homepage": "https://github.com/mangoRyw/mryw-utils-linux#readme",
-  "category": "Utilities"
+  "category": "Utilities",
+  "devDependencies": {}
 }
