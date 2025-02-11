@@ -30,6 +30,13 @@ function debounce(fn, delay) {
   function deepClone(obj) {
     return JSON.parse(JSON.stringify(obj));
   }
+
+  function isEmpty(obj) {
+    if (typeof obj !== 'object' || obj === null) {
+      throw new TypeError('Expected an object as input');
+    }
+    return Object.keys(obj).length === 0;
+  }
   
-  module.exports = { debounce, throttle, deepClone };
+  module.exports = { debounce, throttle, deepClone, isEmpty };
   

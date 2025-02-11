@@ -1,6 +1,6 @@
 {
   "name": "mryw-utils-linux",
-  "version": "2.0.0",
+  "version": "4.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,8 @@
     "utility",
     "debounce",
     "throttle",
-    "deepClone"
+    "deepClone", 
+    "mryw"
   ],
   "author": "mRyw",
   "license": "MIT",
