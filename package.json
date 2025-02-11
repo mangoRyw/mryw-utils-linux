@@ -10,7 +10,9 @@
     "debounce",
     "throttle",
     "deepClone", 
-    "mryw"
+    "mryw", 
+    "linux",
+    "utils"
   ],
   "author": "mRyw",
   "license": "MIT",

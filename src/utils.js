@@ -24,6 +24,13 @@ function debounce(fn, delay) {
         }, limit - (now - lastTime));
       }
     };
+  } 
+  
+  function capitalize(str) {
+    if (typeof str !== 'string') {
+        throw new TypeError('Expected a string as input');
+    }
+    return str.charAt(0).toUpperCase() + str.slice(1);
   }
   
  
